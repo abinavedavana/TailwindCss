@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="p-4">
+
+
+    <h2 class="text-xl font-bold mb-4"> Columns by number</h2>
+    <div class="columns-3 gap-x-4 border p-4 bg-red-700">
+        <p>This is the first peace of column</p>
+        <p>This is the second peace of column</p>
+        <p>This is the third peace of column</p>
+        <p>Extra content will wrap into the existing column naturally</p>
+        <p>Extra content will wrap into the existing column naturally</p>
+    </div>
+    
+
+    <h2 class="text-xl font-bold m-5">Columns by width</h2>
+    <div class="columns-lg gap-x-4 border p-4 bg-blue-700">
+        <p>Each columns is atleast 32 rem wide</p>
+        <p>The browser fit as may as possible based on container width</p>
+        <p>Resize the window  to see the number of columns change</p>
+    </div>
+    
+
+    <h2 class="text-xl font-bold m-5">Columns by width</h2>
+    <div class="columns-3 gap-x-8 border p-4 bg-lime-500">
+        <p>Bigger column gap</p>
+        <p>This adds 2 rem spacing the columns</p>
+        <p>Compare with smaller gap values</p>
+    </div>
+
+
+    
+    <!-- <h2 class="text-xl font-bold m-5">Custom values</h2>
+    <div class="columns-[4] gap-x-[20px]  border p-4 bg-violet-700">
+        <p>Exactly 4 columns we get </p>
+        <p>Each columns is exactly 20px</p>
+        <p>Arbitrary  values allows  precise control beyond default</p>
+        <p>Each paragraph to fill columns layout</p>
+    </div> -->
+
+    
+    <h2 class="text-xl font-bold m-5">Responsive Design</h2>
+    <div class="columns-1 sm:columns-2 md:columns-3 xl:columns-4 gap-x-4 border bg-yellow-400">
+        <p>1 columns are very small screen</p>
+        <p>2 columns is small</p>
+        <p>3 columns is medium</p>
+        <p>4 columns is large</p>
+    </div>
+
+</body>
+</html>
