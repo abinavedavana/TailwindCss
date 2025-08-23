@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+
+    <div class="relative h-35 bg-slate-400">
+        <div class="absolute top-0 left-1/2 bg-blue-500 text-white p-4">Center top</div>
+    </div>
+
+    <div class="relative h-20 bg-cyan-200">
+        <div class="absolute left-4 top-4 bg-orange-500 text-white p-2 z-10">Z-index-10</div>
+        <div class="absolute left-10 top-10 bg-purple-500 text-white p-2 z-50">Z-index-50</div>
+    </div>
+    
+    <div class="text-base sm:text-sm md:text-xl lg:text-3xl">This text is normal on small screen ; xl on medium screen ; 3xl on large screen</div>
+
+    <div class="text-red-700 m-4">Example for State Variants</div>
+    <button class="bg-blue-400 hover:bg-blue-900 text-white focus:outline-none active:scale-95 px-4 py-4">Interactive button</button>
+
+
+    <div class="text-red-700 m-4">Example for State Variants</div>
+    <button class="cursor-pointer bg-lime-500 py-4 px-4">Clickable</button>
+    <button class="cursor-not-allowed bg-gray-500 py-4 px-4">Disable</button>
+
+
+
+    <div class="text-red-700 m-4">Example for Shadow</div>
+    <div class="shadow p-4 mb-2 bg-white">Normal Shadow</div>
+    <div class="shadow-lg p-4 mb-2 bg-white">Large Shadow</div>
+
+
+    <div class="text-red-700 m-4">Example for Opacity</div>l
+    <div class="opacity-25">This is an example for opacity-25</div>
+    <div class="opacity-50">This is an example for opacity-50</div>
+    <div class="opacity-75">This is an example for opacity-75</div>
+    <div class="opacity-100">This is an example for opacity-100</div>
+
+
+    <div class="text-red-700 m-4">Example for Rounded Corner</div>
+    <img src="img-1.jpeg" class="rounded w-25 h-35"><br>
+    <img src="img-1.jpeg" class="rounded-xl w-25 h-35"><br>
+
+    <img src="img-1.jpeg" class="rounded-full w-25 h-35">
+
+  
+
+
+</body>
+</html>
