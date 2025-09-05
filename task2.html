@@ -7,11 +7,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <nav class="flex justify-between p-2 ">
+     <!-- Navbar -->
+
+    <nav class="flex flex-wrap justify-between  p-2 ">
 
         <div class="font-bold text-xl mx-5">Double C & B</div>
 
-        <ul class=" flex gap-16 font-semibold ">
+        <ul class="hidden md:flex gap-6 font-semibold ">
             <li class="hover:text-orange-400"><a href="#">Recipes</a></li>
             <li class="hover:text-orange-400"><a href="#" >Food</a></li>
             <li class="hover:text-orange-400"><a href="#">About Us</a></li>
@@ -24,24 +26,25 @@
     </nav>
 
 
-    <div class="flex justify-evenly  mx-10 mt-20 mb-10">
+    <div class="flex flex-col md:flex-row items-center justify-evenly gap-4 mx-6 ">
         <div class="mx-10">
-            <p class="text-5xl font-bold mt-10 mx-7"> Double Cheese and Bacon</p>
-            <p class="text-xl w-110 m-7">Find the best keto recipes with their nutritional value and more.</p><br>
+            <p class="text-4xl md:text-6xl font-bold mt-10 mx-7"> Double Cheese and Bacon</p>
+            <p class="text-xl w-auto m-7">Find the best keto recipes with their nutritional <br> value and more.</p><br>
 
 
-            <div class="flex">
+            <div class="flex  flex-col md:flex-row items-center justify-evenly gap-4 mt-6 ">
                 <button class="bg-yellow-400 rounded-xl px-10 hover: active:scale-90">Recipes</button>
-                <p class="text-sm mx-13">400+ delicious and amazing recipes for your keto diet!</p>
+                <p class="text-sm mx-13 sm:w-auto">400+ delicious and amazing recipes for your keto diet!</p>
             </div>
-
         </div>
-        <div>
-        <img src="p1.jpg" alt="p1" class="w-max h-99 rounded-lg mx-55 relative "></div>
+
+        
+        <img src="p1.jpg" alt="p1" class="w-full md:w-1/2 h-auto rounded-lg">
     </div>
+    
 
 
-    <div class="flex gap-10 bg-gray-200 h-50 mt-5 justify-around p-10">
+    <div class="flex flex-col gap-10 bg-gray-200 h-auto mt-5 justify-evenly p-10 mb-8 sm:flex-row">
 
         <div class="w-80">
             <div class="flex gap-2">
@@ -70,8 +73,8 @@
     </div>
 
 
-    <div class="flex justify-evenly bg-black ">
-        <img src="p2.jpg" alt="p2" class="w-130 h-80 rounded-lg m-20">
+    <div class="flex flex-col md:flex-row justify-evenly bg-black ">
+        <img src="p2.jpg" alt="p2" class="w-auto h-auto rounded-lg m-20 md:w-1/2">
         <div class="text-white mt-25">
             <p class="font-extrabold text-xl mb-2">Double C&B Program: How this work?</p>
             <p class="w-116 mb-2">our principal goal is to focus in the mental health. working on us inside, set our goals and write down the reason of why are we doing this will help us to archive better result, not only in our body but in our mind.</p>
@@ -93,86 +96,104 @@
            
             <div class="flex gap-2 mb-2">
                 <div class="bg-white w-1 h-1 rounded-xl mt-3"></div>
-                <p>We will provide you tips on how to make this a lifestyle</p>
+                <p> We will provide you tips on how to make this a lifestyle </p>
            
             </div>
         </div>
     </div>
 
 
-    <div class="flex justify-around m-20 ">
-            <div class="bg-gray-200 rounded-xl p-4 ">
-                <p class="w-70 mb-8">
+    <div class="lg:grid grid-cols-3 gap-16 m-20 ">
+            <div class="bg-gray-200 rounded-xl p-4  mb-8">
+                <p class="sm:w-auto  mb-8 p-2">
                     "The reason why i wanted to do this program was to work on my mind first and then on my body, and i did it! They really helped me to understand me inside..."
                 </p>
                 <img src="girl1.jpeg" alt="girl1" class="w-16 h-16 rounded-full mb-4">
-                <p class="text-lg font-bold">Patty Sultan</p>
+                <p class="text-lg font-bold">  Patty Sultan </p>
             </div>
 
-            <div class="bg-gray-200 rounded-xl p-4">
-                <p class="w-70 mb-8"> 
+            <div class="bg-gray-200 rounded-xl p-4 mb-8">
+                <p class="w-auto mb-8 p-2"> 
                     "I was lost and tried lots of diets but when i started to follow the Double C&B program i realized about so many things that i did't pay attention before and I'm so glad i found them!"
                 </p>
                 <img src="girl2.jpeg" alt="girl2" class="w-16 h-16 rounded-full mb-4">
-                <p class="text-lg font-bold">Jess Fonseca</p>
+                <p class="text-lg font-bold"> Jess Fonseca </p>
             </div>
 
-            <div class="bg-gray-200 rounded-xl p-4">
-                <p class="w-70 mb-8">
+            <div class="bg-gray-200 rounded-xl p-4 mb-8">
+                <p class="w-auto mb-8 p-2">
                     "This program talk about how to communicate with yourself, and how important is our mental health. Once we work with this, we wil see the results in everything."
                 </p>
                 <img src="boy3.jpeg" alt="boy3" class="w-16 h-16 rounded-full mb-4" >
-                <p class="text-lg font-bold">David Cole</p>
+                <p class="text-lg font-bold"> David Cole </p>
             </div>
     </div>
 
 
-    <div class="bg-yellow-400 w-full h-250">
+    <!-- <div class="relative">
+        <div class="bg-yellow-400 w-full h-250">
         <img src="p3.jpg" alt="p3" class="opacity-45 w-full h-250">
 
-        <div class="absolute top-480 text-center ml-130">
+        <div class="absolute  text-center">
             <p class="text-lg mb-4 font-medium">It's timeto</p>
             <p class="text-4xl font-bold mb-6">WORK ON YOURSELF AND BE YOUR <br> BEST VERSION</p>
             <button class="bg-white text-xl font-semibold rounded-full px-6 py-2 hover:bg-lime-600 active:scale-90">I want to do it now!</button>
         </div>
-
-        <div class="bg-black relative h-100 bottom-90 text-white flex justify-around" >
-
-            <div class="font-bold text-xl m-20">Double C&B</div>
-
-
-            <div class="m-20 ">
-                <p class="font-bold text-lg mb-4">First Column</p>
-                <p class="mb-2">First page</p>
-                <p class="mb-2">Second page</p>
-                <p class="mb-2">Third</p>
-                <p class="mb-2">Fourth</p>
-            </div>
-
-            <div class="m-20">
-                <p class="font-bold text-lg mb-4">Second</p>
-                <p class="mb-2">Fifth page</p>
-                <p class="mb-2">Sixth page</p>
-                <p class="mb-2">Eighth</p>
-            </div>
-
-            <div class="m-20">
-                <p class="font-bold text-lg mb-4">Third</p>
-                <p class="mb-2">Fifth page</p>
-                <p class="mb-2">Sixth page</p>
-                <p class="mb-2">Eighth</p>    
-            </div>
-
-            <div class="m-20">
-                <p class="font-bold text-lg mb-6">Subscribe</p>
-                
-                <form action="">
-                    <input type="email" placeholder="Enter email"  class="rounded-3xl bg-zinc-700 p-2 mb-6 opacity-55" >
-                    <button class="hover:bg-yellow-900 active:scale-125 rounded-xl p-2"><img src="Icon.png" alt="icon" class="w-5"></button>
-                </form> 
-                <p class="mb-2 opacity-35">Join our newsletter to stay up to <br> date on features and releases</p>
-            </div>
-        </div>
     </div>
+    </div> -->
+
+      <div class="relative bg-yellow-400">
+        <img src="p3.jpg" alt="p3" class="w-full h-96 object-cover opacity-50">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center">
+            <p class="text-lg font-medium">It's time to</p>
+            <h2 class="text-2xl md:text-4xl font-bold mb-4">
+                WORK ON YOURSELF AND BE YOUR BEST VERSION
+            </h2>
+            <button class="bg-white text-black font-semibold rounded-full px-6 py-2 hover:bg-lime-600 active:scale-95">
+                I want to do it now!
+            </button>
+        </div>
+  </div>
+
+    <footer class="bg-black text-white p-10 grid md:grid-cols-5 gap-8">
+    <div>
+      <h2 class="font-bold text-xl">Double C&B</h2>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2">First Column</h3>
+      <p>First page</p>
+      <p>Second page</p>
+      <p>Third</p>
+      <p>Fourth</p>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2">Second</h3>
+      <p>Fifth page</p>
+      <p>Sixth page</p>
+      <p>Eighth</p>
+    </div>
+    <div>
+    <h3 class="font-bold mb-2">Third</h3>
+      <p>Fifth page</p>
+      <p>Sixth page</p>
+      <p>Eighth</p>
+    </div>
+    
+    <div>
+      <h3 class="font-bold mb-2">Subscribe</h3>
+      <form class="flex rounded-3xl bg-zinc-700 p-2  opacity-55">
+        <input type="email" placeholder="Enter Email" >
+        <button class="hover:bg-yellow-600 active:scale-125 rounded-full p-2 ">
+            <img src="Icon.png" alt="icon" class="w-6">
+        </button>
+      </form>
+      <p class="text-xs opacity-70 mt-2">Join our newsletter to stay updated on new features and releases.</p>
+    </div>
+  </footer>
+
+
+
+        
+
 </body>
 </html>
