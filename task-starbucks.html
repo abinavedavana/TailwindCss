@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-sans">
+    
+        <!-- nav bar -->
+
+    <nav class="flex justify-between  gap-10 m-2 px-2 py-4  ">
+
+        <div class="flex justify-between">
+            <img src="starbucks.png" alt="icon" class="w-10 h-10">
+        </div>
+
+        <ul class="hidden md:flex  gap-8 font-bold text-green-900 ">
+            <li class="hover:text-green-500"><a href="#">MENU</a></li>
+            <li class="hover:text-green-500"><a href="#">REWARDS</a></li>
+            <li class="hover:text-green-500"><a href="#">GIFT CARDS</a></li>
+        </ul>
+
+        <ul class="hidden md:flex ">
+            <li class="hover:text-green-500 "><a href="#">
+                 <img src="pin.png" alt="location" class="w-6 h-6">
+            </a></li>
+            <li class="hover:text-green-500"><a href="#">
+                 <p class="font-medium">Find a store</p>
+            </a></li>
+        </ul>
+
+        <div class=" justify-end"> 
+            <button class="lg:bg-black border text-white font-bold rounded-full px-4 p-1 hover:bg-green-900 active:scale-95"> Join now</button>
+            <button class="items-end lg: border-2 rounded-full font-semibold px-4 p-1 hover:bg-zinc-300 active:scale-95 ">Sign in</button> 
+        </div>
+
+    </nav>
+
+     <!-- First Section -->
+
+    <div class=" flex justify-between items-center bg-green-950 h-14">
+        <div class=" text-white font-bold  px-10">STARBUCKS® REWARDS</div>
+        <button class="bg-green-800 border text-white font-bold rounded-full py-1 px-4 hover:bg-lime-600 active:scale-95 lg:hidden"> Join now</button>  
+    </div>
+
+
+
+    <div class="flex flex-col h-auto md:flex-row bg-yellow-100  ">
+        <div class="text-center mt-20 mb-8">
+            <p class="text-6xl font-semibold mb-8">It's a great day for free coffee</p>
+            <p class="text-xl mb-8">Sign up and start enjoying the perks of starbucks <br> Rewards</p>
+            <button class="border bg-green-800 text-white rounded-full font-semibold p-2 px-4 mb-8 hover:bg-green-700 active:scale-95">Join in the app</button>
+            <ul><li class="text-xl underline text-green-950"><a href="#">Or join online</a></li></ul>
+        </div>
+        <img src="starbucks-new.jpeg" alt="starbucks" class="w-full md:w-1/2">
+    </div>
+
+
+     <!-- account setting Section -->
+
+    <div class="text-center mt-16">
+        <h3  class="font-semibold text-3xl mb-6">Getting started is easy</h3>                                   
+        <p class="text-xl mb-8">Earn Stars and get rewarded in a few easy steps</p>
+    </div>
+
+    <div class="flex-col mb-2 lg:grid grid-cols-3 text-center   justify-evenly  mb-30 ">
+
+         <div class="flex flex-col items-center mb-4">
+            <p class="text-2xl font-bold border-2 border-green-800 rounded-full w-10 h-10  text-green-900 mb-8">1</p>
+            <p class="text-xl font-medium mb-4">Create an account</p>
+            <p class=" w-auto">To get started, <a href="#" class="text-green-900 underline">join now</a>. You can also <a href="#" class="text-green-900 underline">Join in the app</a><br> to get access to the full range of Starbucks® Rewards <br> benefits.</p>
+        </div>
+
+        <div class="flex flex-col items-center mb-4">
+            <p class="text-2xl font-bold border-2 border-green-800 rounded-full w-10 h-10  text-green-900 mb-8">2</p>
+            <p  class="text-xl font-medium mb-4">Order and pay how you'd like</p>
+            <p class=" w-auto">Use cash, credit/debit card or save some time and pay <br>right through the app. You’ll collect Stars all <br>ways.<a href="#" class="text-green-900 underline">Learn how</a> .</p>
+        </div>
+
+        <div class="flex flex-col items-center mb-4">
+            <p class="text-2xl font-bold border-2 border-green-800 rounded-full w-10 h-10  text-green-900 mb-8">3</p>
+            <p  class="text-xl font-medium mb-4">Earn Stars, get Rewards</p>
+            <p class="w-auto">As you earn Stars, you can redeem them for Rewards <br>like free food, drinks, and more. Start redeeming with <br>as little as 25 Stars!</p>
+        </div>
+    </div>
+
+     <!-- Fav Section -->
+
+    <div class="bg-blue-50 pt-10 pb-4">
+        <p class="text-4xl font-bold text-center mb-20">Get your favorites for free</p>
+        <ul class="flex justify-evenly items-center sm:gap-20 w-auto">
+            <li class="flex text-3xl font-bold"><a href="#">25</a> <img src="star1.png" alt="star" class="w-3 h-3 mt-5"></li>
+            <li class="flex text-3xl font-bold"><a href="#">100</a> <img src="star1.png" alt="star" class="w-3 h-3 mt-5"></li>
+            <li class="flex text-3xl font-bold"><a href="#">200</a> <img src="star1.png" alt="star" class="w-3 h-3 mt-5"></li>
+            <li class="flex text-3xl font-bold"><a href="#">300</a> <img src="star1.png" alt="star" class="w-3 h-3 mt-5"></li>
+            <li class="flex text-3xl font-bold"><a href="#">400</a> <img src="star1.png" alt="star" class="w-3 h-3 mt-5"></li>
+        </ul>
+    </div>
+
+    <div class="flex flex-col justify-evenly gap-14 bg-blue-200 py-10 mb-30 md:flex-row">
+
+        <img src="starbucks1.png" alt="coffee" class="h-56">
+        
+        <div class="mt-18 md:flex-col justify-evenly text-center ">
+            <p class="text-2xl font-bold mb-4">Customize your drink</p>
+            <p class="w-auto">Make your drink just right with an extra espresso <br> shot or a dash of your favorite syrup.</p>
+        </div>
+    </div>
+
+
+      <!-- <div class="flex flex-col md:flex-row items-center justify-center gap-10 bg-blue-200 py-10">
+            <img src="starbucks1.png" alt="coffee" class="h-40 md:h-56 object-contain">
+            <div class="text-center md:text-left">
+            <p class="text-2xl font-bold mb-2">Customize your drink</p>
+            <p class="max-w-sm">Make your drink just right with an extra espresso shot or your favorite syrup.</p>
+     </div> -->
+
+
+    <!-- Features Section -->
+
+    <div class=" justify-center text-center mb-14">
+        <p class="text-3xl font-bold mb-6">Endless Extras</p>
+        <p >Joining Starbucks® Rewards means unlocking access to benefits like quick and easy ordering, tasty <br>Rewards and — yes, free coffee</p>
+    </div>
+
+    <div class="flex-col lg:grid grid-cols-3 text-center  justify-evenly  mb-30 ">
+
+         <div class="flex flex-col items-center mb-4">
+            <ul><li><a href="#"><img src="starbucks2.jpg" alt="" class="w-32 h-32 mb-4"></a></li></ul>
+            <p class="text-xl font-bold mb-4">Fun freebies</p>
+            <p class=" w-auto mb-4">Not only can you earn free food, drinks and more,<br> look forward to a birthday treat on us.</p>
+            <ul><li class="text-green-800 underline"><a href="#">Learn more</a></li></ul>
+        </div>
+
+        <div class="flex flex-col items-center mb-4">
+            <ul><li><a href="#"><img src="starbucks3.jpg" alt="" class="w-32 h-32 mb-4"></a></li></ul>
+            <p  class="text-xl font-bold mb-4">Order & pay ahead</p>
+            <p class=" w-auto m-4">Master the art of ordering ahead with saved favorites <br> and payment methods.</p>
+            <ul><li class="text-green-800 underline"><a href="#">Learn more</a></li></ul>
+        </div>
+
+        <div class="flex flex-col items-center mb-4">
+            <ul><li><a href="#"><img src="starbucks4.jpg" alt="" class="w-32 h-32 mb-4"></a></li></ul>
+            <p  class="text-xl font-bold mb-4">Get to free faster</p>
+            <p class="w-auto m-4">Earn Stars even quicker with Bonus Star challenges, <br> Double Star Days and exciting games.</p>
+            <ul><li class="text-green-800 underline"><a href="#">Learn more</a></li></ul>
+        </div>
+    </div>
+
+
+    <!-- cash or card Section -->
+
+    <div class="bg-slate-200 py-10">
+        <div class=" justify-center text-center mb-24">
+            <p class="text-3xl font-bold mb-6">Cash or card, you earn Stars</p>
+            <p >No matter how you pay, you can earn Stars with your morning coffee. Those Stars add up to (really <br> delicious) Rewards.</p>
+        </div>
+
+
+
+        <div class="flex flex-col gap-10 mb-10 px-8 lg:flex-row">
+            <div>
+                <p class="text-3xl font-bold mb-1.5 flex">1<img src="star-black.png" alt="" class="w-4 h-4 mt-3.5"> per dollar</p>
+                <p>Pay as you go</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row">
+                <div class="flex gap-5">
+                    <img src="starbucks5.png" alt="" class="w-32 h-42">
+                    <div>
+                        <p class="text-2xl font-bold mb-4 flex">Scan and pay separately</p>
+                        <p>Use cash or credit/debit card at the register.</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-5">
+                    <img src="starbucks6.png" alt="" class="w-32 h-42">
+                    <div>
+                        <p class="text-2xl font-bold mb-6 flex">Save payment in the app</p>
+                        <p class=" text-justify">Check-out faster by saving a credit/debit <br> card or PayPal to your account. You’ll be able <br> to order ahead or scan and pay at the <br> register in one step.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr class="mb-10">
+
+
+        <div class="flex flex-col gap-10 mb-10 px-8 lg:flex-row">
+            <div>
+                <p class="text-3xl font-bold mb-1.5 flex">2<img src="star-black.png" alt="" class="w-4 h-4 mt-3.5"> per dollar</p>
+                <p>Add funds in the app</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row">
+                <div class="flex gap-5">
+                    <img src="starbucks7.png" alt="" class="w-32 h-42">
+                    <div>
+                        <p class="text-2xl font-bold mb-4 flex">Preload</p>
+                        <p class="text-justify">To save time and earn Stars twice as fast, add <br>money to your digital Starbucks Card using <br>any payment option. Scan and pay in one <br>step or order ahead in the app.</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-5">
+                    <img src="starbucks8.png" alt="" class="w-32 h-42">
+                    <div>
+                        <p class="text-2xl font-bold mb-6 flex">Register your gift card</p>
+                        <p class=" text-justify">Then use it to pay through the app. You can <br> even consolidate balances from multiple <br>cards in one place.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <!-- footer -->
+
+
+    <footer class="mt-4 mx-2">
+
+        <div class="flex gap-2 mb-8">
+            <img src="spotify.png" alt="" class="w-10 h-10">
+            <img src="facebook.png" alt="" class="w-10 h-10">
+            <img src="pinterest-logo.png" alt=""class="w-10 h-10">
+            <img src="instagram.png" alt=""class="w-10 h-10 ">
+            <img src="youtube.png" alt=""class="w-10 h-10">
+            <img src="twitter1.png" alt=""class="w-10 h-10">
+        </div>
+
+        <ul>
+            <li class="hover:underline mb-4"><a href="#">Privacy Notice</a></li>
+            <li class="hover:underline mb-4"><a href="#">Consumer Health Privacy Notice</a></li>
+            <li class="hover:underline mb-4"><a href="#">Terms of Use</a></li>
+            <li class="hover:underline mb-4 "><a href="#">Do Not Share My Personal Information</a></li>
+            <li class="hover:underline mb-4"><a href="#">CA Supply Chain Act</a></li>
+            <li class="hover:underline mb-4"><a href="#">Accessibility</a></li>
+            <li class="hover:underline mb-4"><a href="#">Cookie Preferences</a></li>
+            
+        </ul>
+
+        <p class="opacity-55 mb-50">© 2025 Starbucks Coffee Company. All rights reserved</p>
+
+    </footer>
+    
+</body>
+</html>
